@@ -1,0 +1,52 @@
+.About {
+  background-color: #0a5230;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.About-Me {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 8px;
+  justify-content: center;
+  padding: 40px;
+  width: 50%;
+}
+
+.About-Me p {
+  line-height: 24px;
+}
+
+.Picture-Container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.Picture-Container img {
+  height: 250px;
+  width: 250px;
+}
+
+.Trybe-Link, .Trybe-Link:visited {
+  color: white;
+}
+
+@media screen and ( max-width : 600px ) {
+
+  .About {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Picture-Container {
+    padding: 24px;
+  }
+
+  .About-Me {
+    padding: 16px;
+    width: auto;
+  }
+}

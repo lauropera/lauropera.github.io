@@ -1,0 +1,74 @@
+.Header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 30px 90px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.Header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Link {
+  color: white;
+  text-decoration: none;
+}
+
+.Link, .Link:visited, .Icon {
+  border-radius: 26px;
+  color: white;
+  font-weight: 500;
+  padding: 8px;
+  text-shadow: 1px 1px 6px black;
+}
+
+.Social {
+  font-size: 2rem;
+}
+
+.Icon {
+  border-radius: 0;
+  padding: 0;
+}
+
+.Internal-Links, .Social-Medias {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  gap: 24px;
+  list-style: none;
+}
+
+@media screen and ( max-width : 600px ) {
+
+  .Header {
+    flex-wrap: wrap;
+    padding: 12px;
+    width: 100%;
+  }
+
+  .Internal-Links, .Social-Medias {
+    flex-flow: column wrap;
+    gap: 0;
+  }
+
+  .Internal-Links {
+    gap: 22px;
+  }
+}
+
+@media screen and ( min-width : 601px ) {
+
+  .Header .Link:hover, .Home {
+    background-color: white;
+    color: #0a1709;
+    text-shadow: none;
+    transition: 0.2s;
+  }
+}

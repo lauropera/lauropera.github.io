@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: League Spartan , sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* .Home {
+  background-color: white;
+  color: #0a1709;
+  text-shadow: none;
+  transition: 0.2s;
+} */
+
+.Hero {
+  align-items: center;
+  background-image: url('../assets/pictures/hero.png');
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 90vh;
+}
+
+.Hero-Content {
+  color: white;
+  font-size: 38px;
+  padding-left: 90px;
+}
+
+.Intro-Text {
+  align-items: center;
+  background-color: #0a5230;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  height: 10vh;
+  justify-content: center;
+}
+
+.Intro-Text div {
+  text-align: center;
+  width: 90%;
+}
+
+@media screen and ( max-width : 600px ) {
+
+  .Hero {
+    min-height: 88vh;
+  }
+
+  .Hero-Content {
+    padding-left: 24px;
+  }
+
+  .Intro-Text {
+    font-size: 1.2rem;
+    height: 12vh;
+  }
+}
