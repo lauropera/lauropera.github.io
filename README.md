@@ -1,4 +1,4 @@
-# :musical_keyboard: Portfólio
+# :octopus: Portfólio
 
 ![Preview Portfolio](./imgs/Desktop-Preview.png)
 
