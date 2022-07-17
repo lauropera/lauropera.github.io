@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from '../components/Project';
 import dontTrumps from '../assets/projetos/dont-trumps-preview.png';
 import trybetunes from '../assets/projetos/trybetunes-preview.png';
 import shoppingCart from '../assets/projetos/shopping-cart-preview.png';
@@ -8,87 +9,34 @@ import trybewarts from '../assets/projetos/trybewarts-preview.png';
 import '../styles/Projects.css';
 
 function Projects() {
-  const goTo = 'Ver o projeto';
   return (
     <section id="projects" className="Projects-Area">
       <div className="Projects-Container">
-        <div className="Project">
-          <img
-            className="project__img"
-            src={ dontTrumps }
-            alt="Imagem do projeto Don't Trumps"
-          />
-          <div className="Project-Info project-info--blur">
-            <p className="image__title">Don&apos;t Trumps</p>
-            <a
-              className="Link image__link"
-              href="https://lauropera.github.io/dont-trumps/"
-            >
-              Ver o projeto
-            </a>
-          </div>
-        </div>
-        <div className="Project">
-          <img
-            className="project__img"
-            src={ trybetunes }
-            alt="Imagem do projeto Trybetunes"
-          />
-          <div className="Project-Info project-info--blur">
-            <p className="image__title">Trybetunes</p>
-            <a className="Link image__link" href="https://lauropera.github.io/">
-              {goTo}
-            </a>
-          </div>
-        </div>
-        <div className="Project">
-          <img
-            className="project__img"
-            src={ shoppingCart }
-            alt="Imagem do projeto Shopping Cart "
-          />
-          <div className="Project-Info project-info--blur">
-            <p className="image__title">Shopping Cart</p>
-            <a
-              className="Link image__link"
-              href="https://lauropera.github.io/shopping-cart"
-            >
-              {goTo}
-            </a>
-          </div>
-        </div>
-        <div className="Project">
-          <img
-            className="project__img"
-            src={ toDoList }
-            alt="Imagem do projeto To Do List "
-          />
-          <div className="Project-Info project-info--blur">
-            <p className="image__title">To Do List</p>
-            <a
-              className="Link image__link"
-              href="https://lauropera.github.io/todo-list"
-            >
-              {goTo}
-            </a>
-          </div>
-        </div>
-        <div className="Project">
-          <img
-            className="project__img"
-            src={ trybewarts }
-            alt="Imagem do projeto Trybewarts "
-          />
-          <div className="Project-Info project-info--blur">
-            <p className="image__title">Trybewarts</p>
-            <a
-              className="Link image__link"
-              href="https://lauropera.github.io/trybewarts"
-            >
-              {goTo}
-            </a>
-          </div>
-        </div>
+        <Project
+          name="Don't Trumps"
+          image={dontTrumps}
+          link="https://lauropera.github.io/dont-trumps/"
+        />
+        <Project
+          name="Trybetunes"
+          image={trybetunes}
+          link="https://lauropera.github.io/trybetunes/"
+        />
+        <Project
+          name="Shopping Cart"
+          image={shoppingCart}
+          link="https://lauropera.github.io/shopping-cart/"
+        />
+        <Project
+          name="To Do List"
+          image={toDoList}
+          link="https://lauropera.github.io/todo-list/"
+        />
+        <Project
+          name="Trybewarts"
+          image={trybewarts}
+          link="https://lauropera.github.io/trybewarts/"
+        />
       </div>
     </section>
   );
