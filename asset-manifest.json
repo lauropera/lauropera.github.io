@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.d151c2cb.js",
+    "main.css": "/static/css/main.eeb31c31.css",
+    "main.js": "/static/js/main.38505e35.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/footer.png": "/static/media/footer.edb5f7b1bd5a139f6ed9.png",
+    "static/media/hero.png": "/static/media/hero.857f2d7803c3e81693c2.png",
+    "static/media/dont-trumps-preview.png": "/static/media/dont-trumps-preview.980449314ec3b6ae7771.png",
+    "static/media/shopping-cart-preview.png": "/static/media/shopping-cart-preview.b2e30a9c11cf130084f0.png",
+    "static/media/pp.png": "/static/media/pp.a3658bf2933a7d9e1cbe.png",
+    "static/media/trybetunes-preview.png": "/static/media/trybetunes-preview.006995e02da5376c1d55.png",
+    "static/media/trybewarts-preview.png": "/static/media/trybewarts-preview.bed696614a53d96f2112.png",
+    "static/media/todo-list-preview.png": "/static/media/todo-list-preview.4b8e90b8b4ac495df024.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.d151c2cb.js.map": "/static/js/main.d151c2cb.js.map",
+    "main.eeb31c31.css.map": "/static/css/main.eeb31c31.css.map",
+    "main.38505e35.js.map": "/static/js/main.38505e35.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d151c2cb.js"
+    "static/css/main.eeb31c31.css",
+    "static/js/main.38505e35.js"
   ]
 }
