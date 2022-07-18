@@ -4,7 +4,7 @@ import '../styles/Contact.css';
 
 function Contact() {
   return (
-    <section id="contact" className="Contact-Area">
+    <section id="contact-me" className="Contact-Area">
       <div className="Informations">
         <h2>Quer entrar em contato?</h2>
         <p>Caso queira mandar qualquer mensagem, use esse área abaixo</p>
