@@ -1,4 +1,4 @@
-# :musical_keyboard: Portfólio
+# :octopus: Portfólio
 
 ![Preview Portfolio](./imgs/Desktop-Preview.png)
 
@@ -6,7 +6,7 @@
 
 ## :satellite: Desenvolvimento
 
-Um projeto que vou levar pra vida toda e sempre tentar melhorá-lo quando aprendo coisas novas.
+Um projeto que vou levar para a vida toda e sempre tentar melhorá-lo enquanto aprendo coisas novas.
 
 ## :hammer_and_wrench: Tecnologias
 
