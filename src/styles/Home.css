@@ -9,13 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* .Home {
-  background-color: white;
-  color: #0a1709;
-  text-shadow: none;
-  transition: 0.2s;
-} */
-
 .Hero {
   align-items: center;
   background-image: url('../assets/pictures/hero.png');
@@ -28,8 +21,32 @@ html {
 
 .Hero-Content {
   color: white;
+  display: flex;
+  flex-direction: column;
   font-size: 38px;
+  gap: 1rem;
+  height: 200px;
+  justify-content: center;
   padding-left: 90px;
+}
+
+.CV-Link, .CV-Link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.CV-Link {
+  background-color: #08190cce;
+  border: 2px solid #08190cef;
+  border-radius: 12px;
+  font-size: 2rem;
+  padding: 12px 22px;
+  transition: 0.3s;
+}
+
+.CV-Link:hover {
+  background-color: #08190c;
+  transition: 0.3s;
 }
 
 .Intro-Text {

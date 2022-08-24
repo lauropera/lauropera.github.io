@@ -10,9 +10,9 @@ class Project extends React.Component {
           src={image}
           alt={`Imagem do projeto ${name}`}
         />
-        <div className='Project-Info project-info--blur'>
-          <p className='image__title'>{name}</p>
-          <a className='Link image__link' href={link}>
+        <div className='Project-Info'>
+          <h2>{name}</h2>
+          <a className='Link' href={link}>
             Ver o projeto
           </a>
         </div>
