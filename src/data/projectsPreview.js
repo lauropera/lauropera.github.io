@@ -7,7 +7,9 @@ const projectsPreview = [
   dontTrumps,
   trybetunes,
   beChef,
-  '',
+  'trivia',
+  'wallet',
+  'rtl',
   shoppingCart,
 ];
 
