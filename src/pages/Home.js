@@ -7,7 +7,7 @@ function Home() {
       <section id="home" className="Hero">
         <div className="Hero-Content">
           <h1>Olá.</h1>
-          <a className='CV-Link' href='https://drive.google.com/file/d/1pQ9srzat0c-nuSnriBU1iPKSocKqn8Wr/view'>Baixar CV</a>
+          <a className='CV-Link' href='https://drive.google.com/file/d/1-X6kLZQyrNkJVLRl8fItC7vyfrxIVhgJ/view'>Baixar CV</a>
         </div>
       </section>
       <section className="Intro-Text">
