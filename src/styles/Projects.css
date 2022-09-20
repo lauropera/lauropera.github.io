@@ -12,7 +12,15 @@
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  justify-content: center;
+  width: 90%;
+}
+
+.Image-Container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 235px;
+  overflow: hidden;
 }
 
 .Project {
@@ -21,47 +29,29 @@
   display: flex;
   flex-flow: column nowrap;
   gap: 1rem;
-  padding-bottom: 1rem;
   width: 350px;
 }
 
-.project__img {
-  display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.329);
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  height: 210px;
-  width: 100%;
-}
+.project__img { width: 100%; }
 
 .Project-Info {
-  align-items: center;
   color: white;
   display: flex;
   flex-direction: column;
   gap: 12px;
   height: 100%;
   justify-content: center;
-  padding: 0.2rem;
+  padding: 15px 20px;
   width: 100%;
 }
 
-.Project-Info h2 {
-  font-size: 2rem;
-}
+.Project-Info p { height: 30px; }
+
+.Project-Info h2 { font-size: 2rem; }
 
 .Project-Info a {
   font-size: 1.4rem;
-}
-
-.image__link {
-  font-size: 20px;
-}
-
-.image__title {
-  cursor: default;
-  font-size: 2em;
-  font-weight: 700;
+  padding: 8px 0 !important;
 }
 
 @media screen and ( max-width : 600px ) {

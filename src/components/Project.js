@@ -1,16 +1,20 @@
 import React from 'react';
 import { string } from 'prop-types';
+import '../styles/Projects.css'
 
-function Project({ name, image, link, technologies }) {
+function Project({ name, image, link, technologies, description }) {
   return (
     <div className='Project'>
-      <img
-        className='project__img'
-        src={image}
-        alt={`Imagem do projeto ${name}`}
-      />
+      <div className='Image-Container'>
+        <img
+          className='project__img'
+          src={image}
+          alt={`Imagem do projeto ${name}`}
+        />
+      </div>
       <div className='Project-Info'>
         <h2>{name}</h2>
+        <p>{description}</p>
         <a className='Link' href={link}>
           Ver o projeto
         </a>
