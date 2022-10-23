@@ -14,7 +14,7 @@ function Home() {
         <div>
           <p>
             Hey, sou o Lauro. Estou estudando desenvolvimento web! Aqui em baixo você
-            pode ver os projetos que ando fazendo:
+            pode ver alguns projetos que fiz:
           </p>
         </div>
       </section>

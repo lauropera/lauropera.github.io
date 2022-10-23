@@ -1,8 +1,16 @@
 import React from 'react';
 import { string } from 'prop-types';
-import '../styles/Projects.css'
+import '../styles/Projects.css';
 
-function Project({ name, image, link, technologies, description }) {
+function Project({
+  name,
+  image,
+  deployLink,
+  repositoryLink,
+  technologies,
+  description,
+  development,
+}) {
   return (
     <div className='Project'>
       <div className='Image-Container'>
@@ -13,18 +21,34 @@ function Project({ name, image, link, technologies, description }) {
         />
       </div>
       <div className='Project-Info'>
-        <h2>{name}</h2>
-        <p>{description}</p>
-        <a className='Link' href={link}>
-          Ver o projeto
-        </a>
+        <div style={{ minHeight: '64px' }}>
+          <h2>{name}</h2>
+          {development && (
+            <p style={{ marginTop: '4px' }}>Em desenvolvimento</p>
+          )}
+        </div>
+        <p style={{ fontSize: '18px', marginBottom: '6px' }}>{description}</p>
+        <div className='Tools-Container'>
+          {technologies.map((tech) => (
+            <div className='Tool' key={tech.name}>
+              <div>{tech.logo}</div>
+              <p>{tech.name}</p>
+            </div>
+          ))}
+        </div>
       </div>
-      <div>
-        {/* {technologies.map((tech) => (
-          <div>
-            <h1>asd</h1>
-          </div>
-        ))} */}
+      <div className='Project-Link'>
+        {deployLink && (
+          <a className='Link deploy-link' href={deployLink}>
+            Aplicação
+          </a>
+        )}
+        <a
+          className={`Link repo-link ${!deployLink && 'deploy-link'}`}
+          href={repositoryLink}
+        >
+          Repositório
+        </a>
       </div>
     </div>
   );
