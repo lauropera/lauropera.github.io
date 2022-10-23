@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3a9bb1c.css",
-    "main.js": "/static/js/main.6bcb3c75.js",
+    "main.css": "/static/css/main.239739ac.css",
+    "main.js": "/static/js/main.76d111be.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/footer.png": "/static/media/footer.edb5f7b1bd5a139f6ed9.png",
     "static/media/hero.png": "/static/media/hero.857f2d7803c3e81693c2.png",
     "static/media/pp.png": "/static/media/pp.a3658bf2933a7d9e1cbe.png",
     "static/media/dont-trumps-preview.png": "/static/media/dont-trumps-preview.f45777c51d5265dacdb6.png",
-    "static/media/trybetunes-preview.png": "/static/media/trybetunes-preview.d9763be5216869bc3aca.png",
     "static/media/bechef-preview.png": "/static/media/bechef-preview.e040967a477f6f0683a5.png",
     "static/media/shopping-cart-preview.png": "/static/media/shopping-cart-preview.9c6734b1d6509973a5cb.png",
     "static/media/rtl-preview.png": "/static/media/rtl-preview.ac72dddd17e96e872d3c.png",
+    "static/media/trybetunes-preview.png": "/static/media/trybetunes-preview.6f50beb66d6828ceaf54.png",
     "static/media/wallet-preview.png": "/static/media/wallet-preview.3aaef2f8d7dbc692ba77.png",
     "index.html": "/index.html",
-    "main.e3a9bb1c.css.map": "/static/css/main.e3a9bb1c.css.map",
-    "main.6bcb3c75.js.map": "/static/js/main.6bcb3c75.js.map",
+    "main.239739ac.css.map": "/static/css/main.239739ac.css.map",
+    "main.76d111be.js.map": "/static/js/main.76d111be.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3a9bb1c.css",
-    "static/js/main.6bcb3c75.js"
+    "static/css/main.239739ac.css",
+    "static/js/main.76d111be.js"
   ]
 }
