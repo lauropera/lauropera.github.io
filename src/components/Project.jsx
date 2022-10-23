@@ -32,10 +32,15 @@ function Project({
         </div>
       </div>
       <div className='Project-Link'>
-        <a className='Link' href={deployLink}>
-          Projeto
-        </a>
-        <a className='Link' href={repositoryLink}>
+        {deployLink && (
+          <a className='Link deploy-link' href={deployLink}>
+            Aplicação
+          </a>
+        )}
+        <a
+          className={`Link repo-link ${!deployLink && 'deploy-link'}`}
+          href={repositoryLink}
+        >
           Repositório
         </a>
       </div>
