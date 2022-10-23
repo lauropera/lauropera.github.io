@@ -23,13 +23,17 @@ const toolsData = {
     logo: <SiJavascript />,
     name: 'JavaScript',
   },
-  react: {
+  reactJs: {
     logo: <SiReact />,
-    name: 'React.js',
+    name: 'React',
   },
   redux: {
     logo: <SiRedux />,
     name: 'Redux',
+  },
+  contextAPI: {
+    logo: <SiReact />,
+    name: 'Context API',
   },
   reactRouter: {
     logo: <BsCompassFill />,
@@ -37,11 +41,11 @@ const toolsData = {
   },
   rtl: {
     logo: <SiTestinglibrary />,
-    name: 'React Testing Library',
+    name: 'RTL',
   },
   jest: {
     logo: <SiJest />,
-    name: 'Jest.js',
+    name: 'Jest',
   },
 };
 
