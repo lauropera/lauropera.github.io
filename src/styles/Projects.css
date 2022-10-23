@@ -17,8 +17,8 @@
 
 .Image-Container {
   border-bottom: 1px solid rgba(255, 255, 255, 0.329);
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   height: 235px;
   overflow: hidden;
 }
@@ -92,7 +92,7 @@
   text-shadow: none;
   transition: 0.3s;
   padding: 0;
-  padding-top: 6px;
+  padding-top: 8px;
   width: 100%;
 }
 

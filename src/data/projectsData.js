@@ -10,15 +10,17 @@ const projectsData = [
     technologies: ['html', 'css', 'javascript', 'reactJs', 'redux', 'reactRouter'],
     repositoryLink: 'https://github.com/lauropera/dont-trumps',
     deployLink: 'https://lauropera.github.io/dont-trumps',
+    development: true,
   },
   {
     id: 2,
-    name: 'Trybetunes',
+    name: 'Oceanfy',
     screenshot: projectsPreview[1],
     description: 'Aplicação para você ouvir suas músicas',
     technologies: ['html', 'css', 'javascript', 'reactJs', 'reactRouter'],
-    repositoryLink: 'https://github.com/lauropera/trybetunes',
-    deployLink: 'https://lauropera.github.io/trybetunes',
+    repositoryLink: 'https://github.com/lauropera/oceanfy',
+    deployLink: 'https://lauropera.github.io/oceanfy',
+    development: false,
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const projectsData = [
       ['html', 'css', 'javascript', 'reactJs', 'contextAPI', 'rtl'],
     repositoryLink: 'https://github.com/lauropera/bechef',
     deployLink: 'https://lauropera.github.io/bechef',
+    development: false,
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const projectsData = [
     technologies: ['html', 'css', 'javascript', 'reactJs', 'redux'],
     repositoryLink: 'https://github.com/lauropera/trivia',
     deployLink: 'https://lauropera.github.io/trivia',
+    development: false,
   },
   {
     id: 5,
@@ -47,6 +51,7 @@ const projectsData = [
     technologies: ['html', 'css', 'javascript', 'reactJs', 'redux', 'reactRouter'],
     repositoryLink: 'https://github.com/lauropera/wallet',
     deployLink: 'https://lauropera.github.io/wallet',
+    development: false,
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ const projectsData = [
     repositoryLink:
       'https://github.com/lauropera/tests-with-react-testing-library',
     deployLink: '',
+    development: false,
   },
   {
     id: 7,
@@ -67,6 +73,7 @@ const projectsData = [
     technologies: ['html', 'css', 'javascript', 'jest'],
     repositoryLink: 'https://github.com/lauropera/shopping-cart',
     deployLink: 'https://lauropera.github.io/shopping-cart',
+    development: false,
   },
 ];
 

@@ -9,6 +9,7 @@ function Project({
   repositoryLink,
   technologies,
   description,
+  development,
 }) {
   return (
     <div className='Project'>
@@ -20,8 +21,13 @@ function Project({
         />
       </div>
       <div className='Project-Info'>
-        <h2>{name}</h2>
-        <p>{description}</p>
+        <div style={{ minHeight: '64px' }}>
+          <h2>{name}</h2>
+          {development && (
+            <p style={{ marginTop: '4px' }}>Em desenvolvimento</p>
+          )}
+        </div>
+        <p style={{ fontSize: '18px', marginBottom: '6px' }}>{description}</p>
         <div className='Tools-Container'>
           {technologies.map((tech) => (
             <div className='Tool' key={tech.name}>
