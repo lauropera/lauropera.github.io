@@ -9,7 +9,7 @@ function Home() {
           <h1>Olá.</h1>
           <a
             className='CV-Link'
-            href='https://drive.google.com/file/d/1OY4VErAYumsyqawJ9KIRTUyBx7e9jMgz/view'
+            href='https://drive.google.com/file/d/1CdYaPVmP6UbbSh1Q2cNiFSl2xnmZT_9C/view'
           >
             Baixar CV
           </a>
