@@ -30,6 +30,7 @@
 
 .Social {
   font-size: 2rem;
+  transition: 0.1s;
 }
 
 .Icon {
@@ -43,6 +44,11 @@
   font-size: 18px;
   gap: 24px;
   list-style: none;
+}
+
+.Social-Medias a:hover {
+  filter: brightness(70%);
+  transition: 0.1s;
 }
 
 @media screen and ( max-width : 600px ) {

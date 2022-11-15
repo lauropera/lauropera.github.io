@@ -78,7 +78,7 @@
 .Project-Link {
   display: flex;
   font-size: 1.4rem;
-  height: 38px;
+  height: 42px;
   text-align: left;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .Project-Link a:hover {
-  filter: brightness(60%);
+  filter: brightness(70%);
   transition: 0.3s;
 }
 
