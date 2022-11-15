@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.239739ac.css",
-    "main.js": "/static/js/main.a0809cb0.js",
+    "main.css": "/static/css/main.1a62d91f.css",
+    "main.js": "/static/js/main.cbca46b4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/footer.png": "/static/media/footer.edb5f7b1bd5a139f6ed9.png",
     "static/media/hero.png": "/static/media/hero.857f2d7803c3e81693c2.png",
     "static/media/pp.png": "/static/media/pp.8a33bf633adb662132f1.png",
     "static/media/dont-trumps-preview.png": "/static/media/dont-trumps-preview.f45777c51d5265dacdb6.png",
+    "static/media/trybesmith-preview.png": "/static/media/trybesmith-preview.68a74b5ae6f905fe0d3e.png",
+    "static/media/store-manager-preview.png": "/static/media/store-manager-preview.05e0c45c455898378e65.png",
+    "static/media/blogs-api-preview.png": "/static/media/blogs-api-preview.4445b29260488c51a812.png",
     "static/media/bechef-preview.png": "/static/media/bechef-preview.e040967a477f6f0683a5.png",
-    "static/media/shopping-cart-preview.png": "/static/media/shopping-cart-preview.9c6734b1d6509973a5cb.png",
     "static/media/rtl-preview.png": "/static/media/rtl-preview.ac72dddd17e96e872d3c.png",
     "static/media/trybetunes-preview.png": "/static/media/trybetunes-preview.6f50beb66d6828ceaf54.png",
     "static/media/wallet-preview.png": "/static/media/wallet-preview.3aaef2f8d7dbc692ba77.png",
     "index.html": "/index.html",
-    "main.239739ac.css.map": "/static/css/main.239739ac.css.map",
-    "main.a0809cb0.js.map": "/static/js/main.a0809cb0.js.map",
+    "main.1a62d91f.css.map": "/static/css/main.1a62d91f.css.map",
+    "main.cbca46b4.js.map": "/static/js/main.cbca46b4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.239739ac.css",
-    "static/js/main.a0809cb0.js"
+    "static/css/main.1a62d91f.css",
+    "static/js/main.cbca46b4.js"
   ]
 }
