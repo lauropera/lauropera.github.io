@@ -8,6 +8,16 @@ import {
   SiRedux,
   SiTestinglibrary,
   SiJest,
+  SiNodedotjs,
+  SiExpress,
+  SiTypescript,
+  SiSequelize,
+  SiMysql,
+  SiDocker,
+  SiSwagger,
+  SiMocha,
+  SiChai,
+  SiAtom,
 } from 'react-icons/si';
 
 const toolsData = {
@@ -46,6 +56,46 @@ const toolsData = {
   jest: {
     logo: <SiJest />,
     name: 'Jest',
+  },
+  nodeJs: {
+    logo: <SiNodedotjs />,
+    name: 'Node.js',
+  },
+  expressJs: {
+    logo: <SiExpress />,
+    name: 'Express.js',
+  },
+  typescript: {
+    logo: <SiTypescript />,
+    name: 'TypeScript',
+  },
+  sequelize: {
+    logo: <SiSequelize />,
+    name: 'Sequelize.js',
+  },
+  mysql: {
+    logo: <SiMysql />,
+    name: 'MySQL',
+  },
+  docker: {
+    logo: <SiDocker />,
+    name: 'Docker',
+  },
+  swagger: {
+    logo: <SiSwagger />,
+    name: 'Swagger',
+  },
+  mocha: {
+    logo: <SiMocha />,
+    name: 'Mocha',
+  },
+  chai: {
+    logo: <SiChai />,
+    name: 'Chai',
+  },
+  sinon: {
+    logo: <SiAtom />,
+    name: 'Sinon',
   },
 };
 
